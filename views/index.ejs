@@ -33,7 +33,7 @@
     }
 
     a {
-      text-decoration: none;
+      //text-decoration: none;
 
     }
 
@@ -50,6 +50,7 @@
     <div style="margin-bottom: 1rem;">
       Your file is uploaded
       <a href="<%= locals.fileLink %>"><button>Download</button></a>
+      <a href="<%= locals.fileLink %>">Copy Link</a>
     </div>
     <% } %>
       <form action="/upload" method="post"
